@@ -1,0 +1,1 @@
+export { AntsEcs } from "./AntsEcs";
