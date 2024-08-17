@@ -1,0 +1,15 @@
+{
+  "name": "ants",
+  "version": "1.0.0",
+  "description": "ECS library",
+  "main": "index.ts",
+  "author": "TrigoPI",
+  "license": "ISC",
+  "scripts": {
+    "test": "node dist/test/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.3.0",
+    "typescript": "^5.5.4"
+  }
+}
