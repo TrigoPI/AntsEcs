@@ -1,5 +1,5 @@
-import { Component, Constructor, InitParameter } from "../types/ComponentTypes";
-import { Entity } from "../types/EntityTypes";
+import { Component, Constructor, InitParameter } from "./ComponentTypes";
+import { Entity } from "../entity/EntityTypes";
 
 export interface IComponentArray {
     has(entity: Entity): boolean;

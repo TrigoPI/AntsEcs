@@ -1,4 +1,4 @@
-import { Entity } from "../types/EntityTypes";
+import { Entity } from "./EntityTypes";
 import { SignatureArray } from "./SignatureArray";
 import { EntitySignature } from "./EntitySignature";
 

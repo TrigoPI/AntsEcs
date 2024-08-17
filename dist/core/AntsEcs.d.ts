@@ -1,5 +1,5 @@
-import { Component, Constructor, Entity } from "../types";
-import { InitParameter } from "../types/ComponentTypes";
+import { Component, Constructor, InitParameter } from "../component";
+import { Entity } from "../entity";
 export declare class AntsEcs {
     private entityManager;
     private componentManager;

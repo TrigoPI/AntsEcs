@@ -1,5 +1,6 @@
-import { Entity } from "../types";
-import { Component, Constructor, InitParameter } from "../types/ComponentTypes";
+import { Entity } from "../entity";
+
+import { Component, Constructor, InitParameter } from "./ComponentTypes";
 import { ComponentArray, IComponentArray } from "./ComponentArray";
 
 export class ComponentManager {

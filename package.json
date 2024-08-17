@@ -2,12 +2,20 @@
   "name": "ants",
   "version": "1.0.0",
   "description": "ECS library",
-  "type": "module",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "author": "TrigoPI",
   "license": "ISC",
-  "scripts": {
-    "test": "node dist/test/index.js"
+  "exports": {
+    "./core": "./dist/core/index.js",
+    "./types": "./dist/types/index.js",
+    "./component": "./dist/component/index.js",
+    "./entity": "./dist/entity/index.js"
+  },
+  "typesVersions": {
+    "*": {
+      "core": ["dist/core/index.d.ts"]
+    }
   },
   "devDependencies": {
     "@types/node": "^22.3.0",

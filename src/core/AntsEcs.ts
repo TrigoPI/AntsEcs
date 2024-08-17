@@ -1,7 +1,5 @@
-import { Component, Constructor, Entity } from "../types";
-import { ComponentManager } from "../component";
-import { BIT, EntityManager, EntitySignature } from "../entity";
-import { InitParameter } from "../types/ComponentTypes";
+import { ComponentManager, Component, Constructor, InitParameter } from "../component";
+import { EntityManager, EntitySignature, Entity } from "../entity";
 
 export class AntsEcs {
     private entityManager: EntityManager;

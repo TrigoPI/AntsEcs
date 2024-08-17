@@ -1,4 +1,4 @@
-import { Entity } from "../types/EntityTypes";
+import { Entity } from "./EntityTypes";
 import { EntitySignature } from "./EntitySignature";
 export declare class EntityManager {
     private entitiesSignature;
